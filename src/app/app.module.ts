@@ -6,6 +6,7 @@ import { MaterializeModule } from 'angular2-materialize';
 import { AppComponent } from './app.component';
 import { PhoneListComponent } from './phone-list/phone-list.component';
 
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { PhoneListComponent } from './phone-list/phone-list.component';
     HttpModule,
     MaterializeModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
