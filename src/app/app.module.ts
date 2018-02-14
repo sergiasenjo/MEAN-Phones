@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { PhoneListComponent } from './phone-list/phone-list.component';
 
 import { DataService } from './services/data.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhoneListComponent
+    PhoneListComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
