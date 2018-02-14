@@ -23,7 +23,14 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
-    "zone.js": "^0.8.19"
+    "zone.js": "^0.8.19",
+    "angular2-materialize": "^6.7.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongojs": "*",
+    "hammerjs": "^2.0.8",
+    "jquery": "^2.2.4",
+    "materialize-css": "^0.97.8"
   },
   "devDependencies": {
     "@angular/cli": "1.6.8",
