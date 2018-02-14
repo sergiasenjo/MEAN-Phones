@@ -4,10 +4,12 @@ import { HttpModule } from '@angular/http';
 import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { PhoneListComponent } from './phone-list/phone-list.component';
 
 import { DataService } from './services/data.service';
-import { NavbarComponent } from './navbar/navbar.component';
+
+import { Routing } from './routes/routes';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     HttpModule,
-    MaterializeModule
+    MaterializeModule,
+    Routing
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
