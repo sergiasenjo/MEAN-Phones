@@ -4,11 +4,13 @@ import { HttpModule } from '@angular/http';
 import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
+import { PhoneListComponent } from './phone-list/phone-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PhoneListComponent
   ],
   imports: [
     BrowserModule,
