@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Installation
 
-It requires [Node.js](https://nodejs.org/) to run and you need [Angular CLI](https://cli.angular.io/) installed globally:
+It requires [Node.js](https://nodejs.org/) to run and you need install [Angular CLI](https://cli.angular.io/) globally:
 
 ```sh
 npm install -g @angular/cli
