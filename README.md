@@ -4,9 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Installation
 
-It requires [Node.js](https://nodejs.org/) to run.
-
-You need [Angular CLI](https://cli.angular.io/) installed globally:
+It requires [Node.js](https://nodejs.org/) to run and you need [Angular CLI](https://cli.angular.io/) installed globally:
 
 ```sh
 npm install -g @angular/cli
@@ -16,8 +14,6 @@ npm install -g @angular/cli
 git clone https://github.com/sergiasenjo/MEAN-Phones.git project-name
 cd project-name
 npm install
-ng build --prod
-node server
 ```
 
 ### Run in localhost
