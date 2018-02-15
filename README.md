@@ -1,27 +1,38 @@
-# MeanPhones
+# MEAN Phones
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
-## Development server
+### Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+It requires [Node.js](https://nodejs.org/) to run.
 
-## Code scaffolding
+You need [Angular CLI](https://cli.angular.io/) installed globally:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+npm install -g @angular/cli
+```
 
-## Build
+```sh
+git clone https://github.com/sergiasenjo/MEAN-Phones.git project-name
+cd project-name
+npm install
+ng build --prod
+node server
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Run in localhost
 
-## Running unit tests
+You need insert this commands to run the application:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+ng build --prod
+node server
+```
 
-## Running end-to-end tests
+The aplication is running on localhost:3000
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### License
+----
+[MIT](https://opensource.org/licenses/MIT)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+**Sergio Asenjo**
