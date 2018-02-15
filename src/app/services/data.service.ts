@@ -18,6 +18,6 @@ export class DataService {
   getPhoneDetail(id) {
     const vm: DataService = this;
     return this._http.get('/phone/' + id);
-}
+  }
 
 }

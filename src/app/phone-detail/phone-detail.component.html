@@ -1,3 +1,23 @@
-<p>
-  {{ phone.name }}
-</p>
+<div class="progress" *ngIf="show">
+  <div class="indeterminate"></div>
+</div>
+
+<nav class="cyan" [@appear]="appearState">
+  <div class="nav-wrapper container">
+    <div class="col s12">
+      <a routerLink="/" class="breadcrumb">Home</a>
+      <a class="breadcrumb">{{ phone.name }}</a>
+    </div>
+  </div>
+</nav>
+
+<section [@appear]="appearState">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 center">
+        <h1 class="flow-text">{{ phone.name }}</h1>
+        <img class="responsive-img" src="{{ phone.image }}" alt="">
+      </div>
+    </div>
+  </div>
+</section>

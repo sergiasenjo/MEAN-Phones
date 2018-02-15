@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { MaterializeModule } from 'angular2-materialize';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -23,6 +24,7 @@ import { PhoneDetailComponent } from './phone-detail/phone-detail.component';
     BrowserModule,
     HttpModule,
     MaterializeModule,
+    BrowserAnimationsModule,
     Routing
   ],
   providers: [DataService],
