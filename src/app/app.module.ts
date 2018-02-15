@@ -10,12 +10,14 @@ import { PhoneListComponent } from './phone-list/phone-list.component';
 import { DataService } from './services/data.service';
 
 import { Routing } from './routes/routes';
+import { PhoneDetailComponent } from './phone-detail/phone-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PhoneListComponent,
-    NavbarComponent
+    NavbarComponent,
+    PhoneDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -14,4 +14,17 @@ router.get('/phones', function (req, res, next) {
     });
 });
 
+// Get Single Phone
+router.get('/phone/:id', function(req, res, next) {
+    db.phones.findOne({
+        _id: mongojs.ObjectId(req.params.id)
+    }, function(err, phone) {
+        if(err) {
+            res.send(err);
+        } else {
+            res.json(phone);
+        }
+    });
+});
+
 module.exports = router;

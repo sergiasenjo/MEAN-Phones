@@ -9,10 +9,15 @@ export class DataService {
 
   constructor(private _http: Http) { }
 
-  getPhones() {
+  getPhoneList() {
     const vm: DataService = this;
     return vm._http.get('/phones')
       .map(result => vm.result = result);
   }
+
+  getPhoneDetail(id) {
+    const vm: DataService = this;
+    return this._http.get('/phone/' + id);
+}
 
 }

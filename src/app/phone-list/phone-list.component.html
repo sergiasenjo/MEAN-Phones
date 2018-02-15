@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col s12 m6" *ngFor="let phone of phones">
 
-        <div class="card hoverable pointer">
+        <div [routerLink]="['/phone', phone._id]" class="card hoverable pointer">
           <div class="card-image">
             <img src="{{ phone.image }}">
           </div>
