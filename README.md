@@ -16,7 +16,7 @@ cd project-name
 npm install
 ```
 
-### Run in localhost
+### Run on localhost
 
 You need insert this commands to run the application:
 
