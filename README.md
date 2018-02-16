@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Installation
 
-It requires [Node.js](https://nodejs.org/) to run and you need install [Angular CLI](https://cli.angular.io/) globally:
+It requires [Node.js](https://nodejs.org/) to run and you need to install [Angular CLI](https://cli.angular.io/) globally:
 
 ```sh
 npm install -g @angular/cli
@@ -18,7 +18,7 @@ npm install
 
 ### Run on localhost
 
-You need insert this commands to run the application:
+You need to insert this commands to run the application:
 
 ```sh
 ng build --prod
